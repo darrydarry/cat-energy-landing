@@ -1,0 +1,41 @@
+.map-description h1 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #111111;
+    width: 163px;
+}
+
+.map-description p {
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #444444;
+width: 155px;
+}
+
+.map-description {
+    background: #FFFFFF;
+    position: absolute;
+    top: 135px;
+    left: 80px;
+    display: flex;
+    padding: 66px 76px;
+    width: 430px;
+    justify-content: space-around;
+}
+
+.map {
+    position: relative;
+}
+
+.map-pin {
+    position: absolute;
+    top: 99px;
+    left: 665px;
+}

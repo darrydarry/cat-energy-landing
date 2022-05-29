@@ -47,6 +47,8 @@
 .catalog {
     display: flex;
     margin-top: 80px;
+    padding-left: 100px;
+    padding-right: 110px;
 }
 
 .lose-weight-column,

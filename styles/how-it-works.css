@@ -1,0 +1,77 @@
+.how-it-works-title h1 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color: #000000;
+    margin-top: 71px;
+    margin-bottom: 71px;
+}
+
+.first-column,
+.second-column,
+.third-column,
+.fourth-column p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+}
+
+.number-one, .number-two, .number-three, .number-four {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 280px;
+    line-height: 280px;
+    text-align: center;
+    color: #F2F2F2;
+}
+
+.how-it-works-columns {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+
+.first-column,
+.second-column,
+.third-column,
+.fourth-column {
+    width: 230px;
+}
+
+.number-one {
+    position: absolute;
+    top: -37px;
+    left: 187px;
+    z-index: -1;
+}
+
+.number-two {
+    position: absolute;
+    top: -37px;
+    left: 518px;
+    z-index: -1;
+}
+
+.number-three{
+    position: absolute;
+    top: -37px;
+    z-index: -1;
+    right: 404px;
+}
+
+.number-four {
+    position: absolute;
+    top: -37px;
+    z-index: -1;
+    right: 71px;
+}
+
+.how-it-works {
+    margin-left: 100px;
+}
