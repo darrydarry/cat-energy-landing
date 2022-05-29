@@ -1,0 +1,22 @@
+.main-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}

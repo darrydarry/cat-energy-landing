@@ -1,0 +1,92 @@
+/* .energy-header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    z-index: 10000;
+
+    max-width: 1440px;
+
+}
+
+.nav-title {
+    height: 30px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.nav-wrapp {
+    display: flex;
+    padding: 69px 110px;
+}
+
+.nav-wrapp .logo {
+    width: 202px;
+    height: 59px;
+
+}
+
+.links {
+    flex: 3;
+    justify-content: flex-end;
+    align-self: center;
+    display: flex;
+}
+
+.background-cat {
+    background-image: url(/img/background.svg);
+    height: 696px;
+    background-repeat: no-repeat;
+    background-position: right;
+} */
+
+
+
+.links a {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 35px;
+}
+
+.energy-header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.energy-header {
+    position: absolute;
+    z-index: 30;
+    left: 0;
+    width: 1440px;
+    top: 0;
+    right: 0;
+    margin: auto;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.links-wrapp {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}

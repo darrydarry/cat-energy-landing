@@ -1,0 +1,139 @@
+/* .function-eat-cat {
+    display: flex;
+    padding: 0 0 0 100px;
+}
+
+.function-eat-cat-col-left,
+.function-eat-cat-col-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.function-eat-cat-col-left {
+    padding: 200px 100px;
+}
+
+.function-eat-cat-col-left h1 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color: #000000;
+    padding-bottom: 40px;
+}
+
+.function-eat-cat-col-left p {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 52px;
+}
+
+.function-eat-cat-col-left button {
+    width: 244px;
+    height: 54px;
+    background: #68B738;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.function-eat-cat-col-left button:hover {
+    box-shadow: 0 0 5px 1px grey;
+}
+
+.function-eat-cat-col-right {
+    position: relative;
+}
+
+.function-eat-cat-col-right .can {
+    position: absolute;
+    left: -160px;
+    top: 143px;
+}
+
+.function-eat-cat-col-right .cat {
+
+} */
+
+.functional-eating-left-column h1 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color: #000000;
+    padding-bottom: 40px;
+}
+
+.functional-eating-left-column p {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 50px;
+}
+
+.functional-eating-left-column button {
+    width: 244px;
+    height: 54px;
+    background: #68B738;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+.functional-eating-left-column button:hover {
+    box-shadow: 0 0 5px 1px grey;
+}
+
+.functional-eating {
+    display: flex;
+}
+
+.functional-eating-left-column,
+.functional-eating-right-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.functional-eating-right-column {
+    position: relative;
+}
+
+.functional-eating-left-column {
+    justify-content: center;
+    padding: 100px 116px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.can {
+    position: absolute;
+    bottom: 20px;
+    left: -164px;
+}
