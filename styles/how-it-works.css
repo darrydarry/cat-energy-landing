@@ -9,9 +9,9 @@
     margin-bottom: 71px;
 }
 
-.first-column,
-.second-column,
-.third-column,
+.first-column p,
+.second-column p,
+.third-column p,
 .fourth-column p {
     font-family: 'Arial';
     font-style: normal;
@@ -19,6 +19,7 @@
     font-size: 16px;
     line-height: 24px;
     color: #444444;
+    padding-top: 31px;
 }
 
 .number-one, .number-two, .number-three, .number-four {
@@ -33,7 +34,6 @@
 
 .how-it-works-columns {
     display: flex;
-    position: relative;
     justify-content: space-around;
 }
 
@@ -42,34 +42,35 @@
 .third-column,
 .fourth-column {
     width: 230px;
+    position: relative;
 }
 
 .number-one {
     position: absolute;
     top: -37px;
-    left: 187px;
+    right: 0;
     z-index: -1;
 }
 
 .number-two {
     position: absolute;
     top: -37px;
-    left: 518px;
+    right: 0;
     z-index: -1;
 }
 
 .number-three{
     position: absolute;
     top: -37px;
+    right: 0;
     z-index: -1;
-    right: 404px;
 }
 
 .number-four {
     position: absolute;
     top: -37px;
     z-index: -1;
-    right: 71px;
+    right: 0;
 }
 
 .how-it-works {

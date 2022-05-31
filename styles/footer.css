@@ -1,0 +1,12 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background: #F2F2F2;
+    padding: 57px 110px;
+}
+
+.footer-social img {
+    padding-right: 20px;
+}
+

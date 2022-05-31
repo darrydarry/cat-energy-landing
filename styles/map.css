@@ -11,12 +11,12 @@
 
 .map-description p {
     font-family: 'Arial';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-color: #444444;
-width: 155px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #444444;
+    width: 155px;
 }
 
 .map-description {

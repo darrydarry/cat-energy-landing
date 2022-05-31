@@ -1,12 +1,3 @@
-.arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(-45deg);
-    cursor: pointer;
-}
-
 .lose-weight-column span,
 .gain-weight-column span {
     font-family: 'Oswald';
@@ -60,4 +51,16 @@
 
 .lose-weight-column {
     margin-right: 80px;
+}
+
+.lose-weight-column h3::after,
+.gain-weight-column h3::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border: solid #050505;
+    border-width: 1px 0 0px 1px;
+    transform: translate(120%, 65%) rotate(135deg);
+    position: absolute;
+    cursor: pointer;
 }
