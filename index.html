@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./styles/example.css">
     <link rel="stylesheet" href="./styles/map.css">
     <link rel="stylesheet" href="./styles/footer.css">
+    <script src="./slider.js"></script>
     <title>cat-energy</title>
 </head>
 
@@ -108,19 +109,37 @@
                     обычный корм на Cat Energy Slim. Отличный результат
                     без изнуряющих тренировок! При этом он не менял своих
                     привычек и по-прежнему спит по 16 часов в день. </p>
+            </div>
 
-                <div class="result">
-                    <div class="result-left-column">
-                        <img src="./img/weight.png" alt="weight">
-                        <p>Затраты на питание: </p>
-                    </div>
-                    <div class="result-right-column">
-                        <img src="./img/days.png" alt="days">
-                        <p>15 000 РУБ.</p>
-                    </div>
+            <div class="result">
+                <div class="result-left-column">
+                    <p class="result-border">5 КГ</p>
+                    <p class="result-border-description-left">снижение веса</p>
+                </div>
+                <div class="result-right-column">
+                    <p class="result-border">60 дней</p>
+                    <p class="result-border-description-right">затрачено времени</p>
                 </div>
             </div>
-            <input type="range" name="" id="">
+
+            <div class="cost-wrapper">
+                <div class="cost-description">
+                    <p>Затраты на питание: </p>
+                </div>
+                <div class="cost">
+                    <p>15 000 РУБ.</p>
+                </div>
+            </div>
+
+            <div class="slider-wrapper">
+                <input type="range" name="slider" id="slider" min="0" max="100" step="1">
+            </div>
+            <div class="cat-before">
+                <img src="./img/before.png" alt="before">
+            </div>
+            <div class="cat-after">
+                <img src="./img/after.png" alt="after">
+            </div>
         </div>
 
         <div class="map">

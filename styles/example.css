@@ -1,5 +1,10 @@
 .example {
     margin-top: 126px;
+    background: #F2F2F2;
+    padding-bottom: 100px;
+    /* delet then */
+    padding-left: 100px;
+    position: relative;
 }
 
 .example-title h1 {
@@ -18,31 +23,106 @@
     font-size: 16px;
     line-height: 24px;
     color: #444444;
-    padding: 70px 110px 69px;
+    padding: 70px 0 69px;
     width: 436px;
-    margin-bottom: 69px;
 }
 
 .example-title-description {
     margin-top: 76px;
-    background: #F2F2F2;
 }
 
-.result-left-column p,
-.result-right-column p {
+.result {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.slider-wrapper {
+    display: inline-block;
+    width: 20px;
+    height: 150px;
+    padding: 0;
+    position: absolute;
+    right: 532px;
+}
+
+.slider-wrapper input {
+    width: 428px;
+    height: 6px;
+    background: #DCDCDC;
+    z-index: 1;
+}
+
+.result-border {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+    border: 1px solid #CDCDCD;
+    border-radius: 3px;
+    padding: 15px 57px;
+    text-transform: uppercase;
+
+}
+
+.result-border-description-left {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #929292;
+    background: #F2F2F2;
+    position: absolute;
+    top: 55px;
+    left: 35px;
+    width: 114px;
+}
+
+.result-border-description-right {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #929292;
+    background: #F2F2F2;
+    position: absolute;
+    top: 55px;
+    left: 250px;
+    width: 142px;
+}
+
+.result-right-column {
+    padding-left: 42px;
+}
+
+.cost-wrapper {
+    display: flex;
+    justify-content: flex-start;
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
+    text-align: center;
     text-transform: uppercase;
     color: #000000;
+    padding-top: 60px;
 }
 
-.result {
-    display: flex;
+.cost {
+    padding-left: 90px;
 }
 
-.example-title {
-    margin-left: 100px;
+.cat-before {
+    position: absolute;
+    top: 0;
+    right: 135px;
+}
+
+.cat-after {
+    display: none;
 }
