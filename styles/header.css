@@ -7,6 +7,7 @@
     text-transform: uppercase;
     color: #ffffff;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .links a:not(:last-child) {
@@ -23,7 +24,7 @@
     position: absolute;
     z-index: 30;
     left: 0;
-    width: 1440px;
+    max-width: 1440px;
     top: 0;
     right: 0;
     margin: auto;
@@ -41,4 +42,35 @@
     display: flex;
     flex: 1;
     justify-content: center;
+}
+
+
+/* tablet window*/
+
+@media screen and (max-width: 1399px) and (min-width: 768px) {
+    .links-wrapp a {
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #000000;
+        white-space: nowrap;
+    }
+
+    .energy-header {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 24px 30px;
+    }
+
+    .logo {
+        flex: none !important;
+    }
+
+    .logo img {
+        width: 174px;
+    }
+
 }

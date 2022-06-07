@@ -22,7 +22,10 @@
     padding-top: 31px;
 }
 
-.number-one, .number-two, .number-three, .number-four {
+.number-one,
+.number-two,
+.number-three,
+.number-four {
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
@@ -59,7 +62,7 @@
     z-index: -1;
 }
 
-.number-three{
+.number-three {
     position: absolute;
     top: -37px;
     right: 0;
@@ -75,4 +78,31 @@
 
 .how-it-works {
     margin-left: 100px;
+}
+
+
+
+/* tablet window*/
+
+@media screen and (max-width: 1399px) and (min-width: 768px) {
+    .how-it-works-columns {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .first-column,
+    .second-column,
+    .third-column,
+    .fourth-column {
+        padding-bottom: 134px;
+    }
+
+    .first-column,
+    .third-column {
+        margin-right: 154px;
+    }
+
+    .how-it-works {
+        margin-left: 30px;
+    }
 }

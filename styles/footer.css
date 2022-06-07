@@ -10,3 +10,11 @@ footer {
     padding-right: 20px;
 }
 
+
+/* tablet window*/
+
+@media screen and (max-width: 1399px) and (min-width: 768px) {
+    .footer {
+        padding: 55px 0;
+    }
+}

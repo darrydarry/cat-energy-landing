@@ -39,3 +39,24 @@
     top: 99px;
     left: 665px;
 }
+
+
+
+/* tablet window*/
+
+@media screen and (max-width: 1399px) and (min-width: 768px) {
+    .map {
+        margin-top: 240px;
+    }
+
+    .map-description {
+        position: unset;
+        justify-content: space-between;
+        width: auto;
+    }
+
+    .map-pin {
+        top: 291px;
+        left: 332px;
+    }
+}

@@ -55,7 +55,7 @@
 
 .functional-eating-left-column {
     justify-content: center;
-    margin: 100px 116px 100px 190px;
+    padding: 100px 116px 100px 190px;
 }
 
 .logo {
@@ -68,4 +68,27 @@
     position: absolute;
     bottom: 20px;
     left: -164px;
+}
+
+
+
+/* tablet window*/
+
+@media screen and (max-width: 1399px) and (min-width: 768px) {
+    .functional-eating-right-column .green-cat {
+        display: none;
+    }
+
+    .functional-eating-right-column {
+        right: 467px;
+        top: 346px;
+    }
+
+    .functional-eating-left-column {
+        padding: 140px 116px 100px 117px;
+    }
+
+    .functional-eating-left-column button {
+        z-index: 1;
+    }
 }

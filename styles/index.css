@@ -20,3 +20,14 @@ p {
     margin-block-start: 0;
     margin-block-end: 0;
 }
+
+
+/* tablet window*/
+
+@media screen and (max-width: 1399px) and (min-width: 768px) {
+    .main-container {
+        max-width: 768px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}

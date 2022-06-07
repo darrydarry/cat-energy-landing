@@ -44,15 +44,15 @@
                 <button>подобрать программу</button>
             </div>
             <div class="functional-eating-right-column">
-                <img src="./img/background.svg" alt="background">
+                <img src="./img/background.svg" alt="background" class="green-cat">
                 <img src="./img/can.png" alt="can" class="can">
             </div>
         </section>
 
         <div class="catalog">
             <div class="lose-weight-column">
-                <span><img src="./img/cat-green.png" alt="cat-green"></span>
-                <span>похудение</span>
+                <span><img src="./img/cat-green.png" alt="cat-green" class="lose-weight-cat-img"></span>
+                <span class="lose-weight-column-title">похудение</span>
                 <p>Ваш кот весит больше собаки и почти утратил способность
                     лазить по деревьям? Пора на диету! Cat Energy Slim поможет
                     вашему питомцу сбросить лишний вес.</p>
@@ -60,8 +60,8 @@
             </div>
 
             <div class="gain-weight-column">
-                <span><img src="./img/tiger-green.png" alt="tiger-green"></span>
-                <span>набор массы</span>
+                <span><img src="./img/tiger-green.png" alt="tiger-green" class="tiger-green"></span>
+                <span class="gain-weight-column-title">набор массы</span>
                 <p>Заработать авторитет среди дворовых котов и даже собак?
                     Серия Cat Energy Pro поможет вашему коту нарастить
                     необходимые мышцы!</p>
@@ -112,28 +112,29 @@
                         без изнуряющих тренировок! При этом он не менял своих
                         привычек и по-прежнему спит по 16 часов в день. </p>
                 </div>
+                <div class="result-wrapper">
+                    <div class="result">
+                        <div class="result-left-column">
+                            <p class="result-border">5 КГ</p>
+                            <p class="result-border-description-left">снижение веса</p>
+                        </div>
+                        <div class="result-right-column">
+                            <p class="result-border">60 дней</p>
+                            <p class="result-border-description-right">затрачено времени</p>
+                        </div>
+                    </div>
 
-                <div class="result">
-                    <div class="result-left-column">
-                        <p class="result-border">5 КГ</p>
-                        <p class="result-border-description-left">снижение веса</p>
-                    </div>
-                    <div class="result-right-column">
-                        <p class="result-border">60 дней</p>
-                        <p class="result-border-description-right">затрачено времени</p>
-                    </div>
-                </div>
-
-                <div class="cost-wrapper">
-                    <div class="cost-description">
-                        <p>Затраты на питание: </p>
-                    </div>
-                    <div class="cost">
-                        <p>15 000 РУБ.</p>
+                    <div class="cost-wrapper">
+                        <div class="cost-description">
+                            <p>Затраты на питание: </p>
+                        </div>
+                        <div class="cost">
+                            <p>15 000 РУБ.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-
+     
             <div class="slider-cats">
                 <div class="slider-wrapper">
                     <input type="range" name="slider" id="slider-cat" min="0" max="100" step="1">
@@ -147,19 +148,20 @@
         </div>
 
         <div class="map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1998.6027073492767!2d30.3213269!3d59.9387344!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1653859518737!5m2!1sru!2sru"
-                width="1440" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
             <div class="map-description">
                 <h1>приглашаем к сотрудничеству дилеров!</h1>
                 <p>ул. Большая Конюшенная, д. 19/8<br>Санкт-Петербург</p>
             </div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1998.6027073492767!2d30.3213269!3d59.9387344!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1653859518737!5m2!1sru!2sru"
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div class="map-pin">
                 <img src="./img/pin.png" alt="pin">
             </div>
         </div>
-
+  
         <footer>
             <div class="footer-logo">
                 <img src="./img/cat-enrg.png" alt="logo-cat-energy">
@@ -172,7 +174,7 @@
             <div class="footer-logo-academy">
                 <img src="./img/html.png" alt="html-academy">
             </div>
-        </footer>
+        </footer> 
     </main>
 </body>
 
