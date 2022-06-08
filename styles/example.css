@@ -34,7 +34,6 @@
 .result {
     display: flex;
     justify-content: flex-start;
-    position: relative;
 }
 
 .slider-wrapper {
@@ -86,12 +85,17 @@
     background: #F2F2F2;
     position: absolute;
     top: 55px;
-    left: 250px;
+    left: 90px;
     width: 142px;
 }
 
 .result-right-column {
     padding-left: 42px;
+    position: relative;
+}
+
+.result-left-column {
+    position: relative;
 }
 
 .cost-wrapper {
@@ -153,6 +157,27 @@
     flex: 1;
 }
 
+.slider-left,
+.slider-right {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+    position: absolute;
+}
+
+.slider-left {
+    top: 532px;
+    left: 59px;
+}
+
+.slider-right {
+    top: 532px;
+    right: 52px;
+}
 
 /* tablet window*/
 
@@ -165,6 +190,7 @@
         background-color: #ffffff;
         padding-left: 30px;
         margin: 0;
+        flex-wrap: wrap;
     }
 
     .example-title-description {
@@ -191,8 +217,80 @@
         display: block;
     }
 
-    .slider-cats {
-        top: 311px;
-        right: 569px;
+    .slider-left {
+        left: 96px;
+    }
+
+    .slider-right {
+        right: 91px;
+    }
+}
+
+
+
+/* mobile */
+
+@media screen and (max-width: 767px) and (min-width: 375px) {
+    .example-title {
+        margin-top: 69px;
+    }
+
+    .example-title h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .example {
+        margin-top: 33px;
+        padding-left: 0;
+        flex-wrap: wrap;
+    }
+
+    .example-title-description p {
+        font-size: 14px;
+        line-height: 18px;
+        margin: auto;
+        padding: 33px 0 25px;
+        width: 279px;
+    }
+
+    .example-title-description {
+        margin: 0;
+    }
+
+    .result {
+        justify-content: center;
+    }
+
+    .result-border {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .result-border-description-left {
+        top: 43px;
+        left: 28px;
+    }
+
+    .result-border-description-right {
+        top: 43px;
+        left: 75px;
+    }
+
+    .cost {
+        padding-left: 5px;
+    }
+
+    .cost-wrapper {
+        justify-content: center;
+    }
+
+
+    .slider-wrapper input {
+        width: 100%;
+    }
+
+    .cat-wrap {
+        width: 311px;
     }
 }

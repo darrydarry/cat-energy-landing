@@ -70,6 +70,14 @@
     left: -164px;
 }
 
+.functional-eating-mobile {
+    display: none;
+}
+
+.functional-eating-mobile-button {
+    display: none;
+}
+
 
 
 /* tablet window*/
@@ -91,4 +99,88 @@
     .functional-eating-left-column button {
         z-index: 1;
     }
+
+    .functional-eating-mobile {
+        display: none;
+    }
+
+    .functional-eating-mobile-button {
+        display: none;
+    }
 }
+
+
+
+    /* mobile */
+
+    @media screen and (max-width: 767px) {
+
+        .functional-eating-right-column {
+            display: none;
+        }
+
+        .functional-eating-left-column {
+            background-image: url(../img/background.svg);
+            background-position: -247px -78px;
+            padding: 27px 35px 167px 36px;
+        }
+
+        .functional-eating-left-column h1 {
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 36px;
+            color: #FFFFFF;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        .functional-eating-left-column p {
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 14px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            text-align: center;
+        }
+
+        .functional-eating-left-column button {
+            display: none;
+        }
+
+        .functional-eating {
+            display: block;
+            position: relative;
+        }
+
+        .functional-eating-mobile {
+            display: block;
+        }
+
+        .functional-eating-mobile img {
+            position: absolute;
+            top: 210px;
+            left: 40px;
+        }
+
+        .functional-eating-mobile-button {
+            display: block;
+            width: 280px;
+            height: 40px;
+            background: #68B738;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 0px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            cursor: pointer;
+            border: none;
+            margin: 100px auto 0 auto;
+        }
+    }

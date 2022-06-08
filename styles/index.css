@@ -31,3 +31,12 @@ p {
         margin: 0 auto;
     }
 }
+
+
+/* mobile */
+
+@media screen and (max-width: 767px) {
+    .main-container {
+        margin: 0 auto;
+    }
+}

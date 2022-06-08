@@ -60,3 +60,21 @@
         left: 332px;
     }
 }
+
+
+
+/* mobile */
+
+@media screen and (max-width: 767px) {
+
+    .map-description {
+        position: initial;
+        padding: 28px 19px 22px 19px;
+        width: 340px;
+    }
+
+    .map-pin {
+        top: 210px;
+        left: 165px;
+    }
+}

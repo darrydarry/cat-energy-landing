@@ -14,7 +14,34 @@ footer {
 /* tablet window*/
 
 @media screen and (max-width: 1399px) and (min-width: 768px) {
-    .footer {
+    footer {
         padding: 55px 0;
     }
+}
+
+
+
+/* mobile */
+
+@media screen and (max-width: 767px) {
+
+    footer {
+        flex-direction: column;
+        padding: 39px 20px;
+    }
+
+    .footer-logo {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .footer-social {
+        text-align: center;
+        margin-bottom: 43px;
+    }
+
+    .footer-logo-academy {
+        text-align: center;
+    }
+
 }
