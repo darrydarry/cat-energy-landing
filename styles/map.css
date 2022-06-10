@@ -45,9 +45,6 @@
 /* tablet window*/
 
 @media screen and (max-width: 1399px) and (min-width: 768px) {
-    .map {
-        margin-top: 240px;
-    }
 
     .map-description {
         position: unset;
